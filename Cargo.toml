@@ -1,0 +1,20 @@
+[package]
+name = "file_searcher"
+version = "0.1.0"
+edition = "2024"
+description = "A concurrent file searcher with parallel traversal, custom filtering, and TF-IDF relevance ranking"
+license = "MIT"
+repository = "https://github.com/LouYuanbo1/file_searcher"
+homepage = "https://github.com/LouYuanbo1/file_searcher"
+documentation = "https://docs.rs/file_searcher"
+readme = "README.md"
+keywords = ["file", "search", "tf-idf", "text", "parallel"]
+categories = ["text-processing", "filesystem"]
+
+[dependencies]
+regex = "1"
+walkdir = "2"
+log = "0.4"
+
+[dev-dependencies]
+tempfile = "3"
