@@ -15,7 +15,7 @@ Add `file_searcher` to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-file_searcher = { git = "https://github.com/your-username/file_searcher" }
+file_searcher = { git = "https://github.com/LouYuanbo1/file_searcher" }
 ```
 
 ### Basic Usage
