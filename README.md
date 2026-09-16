@@ -11,11 +11,10 @@ A concurrent file searcher written in Rust that supports parallel file traversal
 
 ## Quick Start
 
-Add `file_searcher` to your `Cargo.toml`:
+Add `file_searcher` to your project:
 
-```toml
-[dependencies]
-file_searcher = { git = "https://github.com/LouYuanbo1/file_searcher" }
+```bash
+cargo add file_searcher
 ```
 
 ### Basic Usage
